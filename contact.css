@@ -1,0 +1,11 @@
+/* Apply a gradient background to the entire page */
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(to right, #ff0000, #000000); /* Red to Black gradient */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: Arial, sans-serif;
+}
